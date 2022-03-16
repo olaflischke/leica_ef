@@ -1,1 +1,1 @@
-# leica_ef
+Live Coding und Doku zum Seminar
