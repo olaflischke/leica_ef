@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChinookDal", "ChinookDal\ChinookDal.csproj", "{BA0E9844-A354-44AF-BCEA-41974BB7FDCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChinookExplorer", "ChinookExplorer\ChinookExplorer.csproj", "{679609E0-574C-4479-9EB8-388BB5D364FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA0E9844-A354-44AF-BCEA-41974BB7FDCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0E9844-A354-44AF-BCEA-41974BB7FDCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA0E9844-A354-44AF-BCEA-41974BB7FDCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0E9844-A354-44AF-BCEA-41974BB7FDCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{679609E0-574C-4479-9EB8-388BB5D364FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679609E0-574C-4479-9EB8-388BB5D364FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679609E0-574C-4479-9EB8-388BB5D364FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679609E0-574C-4479-9EB8-388BB5D364FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1A706F27-2E47-40FA-8E7F-E4A21421B27D}
+	EndGlobalSection
+EndGlobal
