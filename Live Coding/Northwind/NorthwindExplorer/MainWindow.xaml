@@ -21,6 +21,25 @@
             <ColumnDefinition Width="3*" />
         </Grid.ColumnDefinitions>
 
+        <DockPanel
+            Grid.Row="0"
+            Grid.Column="0"
+            Margin="3,0"
+            LastChildFill="False">
+            <Button
+                x:Name="btnNewCustomer"
+                Width="23"
+                Height="23"
+                Content="+"
+                DockPanel.Dock="Left" Click="btnNewCustomer_Click" />
+            <Button
+                x:Name="btnEditCustomer"
+                Width="23"
+                Height="23"
+                Content="/.."
+                DockPanel.Dock="Left"  Click="btnEditCustomer_Click"/>
+        </DockPanel>
+
         <TreeView
             x:Name="trvCustomers"
             Grid.Row="1"
@@ -41,7 +60,8 @@
             Grid.Row="0"
             Grid.Column="2"
             Width="120"
-            Height="25" SelectionChanged="cbxOrders_SelectionChanged" />
+            Height="25"
+            SelectionChanged="cbxOrders_SelectionChanged" />
 
         <!--<ComboBox
             x:Name="cbxOrders"

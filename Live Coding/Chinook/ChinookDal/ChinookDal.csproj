@@ -71,6 +71,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ChinookModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Extensions\ExtensionMethods.cs" />
     <Compile Include="Genre.cs">
       <DependentUpon>ChinookModel.tt</DependentUpon>
     </Compile>

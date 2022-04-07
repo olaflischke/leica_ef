@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingDayAnalyzer", "TradingDayAnalyzer\TradingDayAnalyzer.csproj", "{FE801C53-66D4-408C-9E13-1E5CF1994ED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingDayUnitTests", "TradingDayUnitTests\TradingDayUnitTests.csproj", "{958E00A6-7C30-4ED4-8919-3219CFF88FAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE801C53-66D4-408C-9E13-1E5CF1994ED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE801C53-66D4-408C-9E13-1E5CF1994ED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE801C53-66D4-408C-9E13-1E5CF1994ED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE801C53-66D4-408C-9E13-1E5CF1994ED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958E00A6-7C30-4ED4-8919-3219CFF88FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958E00A6-7C30-4ED4-8919-3219CFF88FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958E00A6-7C30-4ED4-8919-3219CFF88FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958E00A6-7C30-4ED4-8919-3219CFF88FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F621843-0828-4AB4-AD14-908488EEE98B}
+	EndGlobalSection
+EndGlobal
